@@ -1,0 +1,17 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: block; /* מבטל את ה-flex שדוחף למרכז */
+  min-height: 100vh;
+  background-color: #f4f4f9; /* צבע רקע עדין */
+}
+
+#root {
+  width: 100%;
+}
